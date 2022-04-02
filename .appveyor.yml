@@ -1,7 +1,5 @@
 version: 1.0.{build}
 image: Ubuntu1804  # образ для сборки
-environment:
-  GITHUB_TOKEN: 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
 build: off
 stack: node 17  # окружение
 branches:
