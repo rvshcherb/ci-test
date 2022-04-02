@@ -1,0 +1,13 @@
+function calculateTotal(purchases) {
+  let result = 0;
+  for (let i = 0; i < purchases.length; i += 1) {
+    result += purchases[i].count * purchases[i].price;
+  }
+  return result;
+}
+
+module.exports = {
+  calculateTotal,
+};
+
+console.log(test.each([[1, 2], [3, 4]]));
