@@ -1,9 +1,8 @@
 version: 1.0.{build}
-image: Ubuntu1804
+image: Ubuntu1804  # образ для сборки
 environment:
   GITHUB_TOKEN: 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
-build:
-  verbosity: minimal
+build: off
 stack: node 17  # окружение
 branches:
   only:
@@ -13,3 +12,4 @@ install:
   - npm install  # команда установки зависимостей
 test_script:
   - npm run lint && npm test  # скрипт тестирования
+
