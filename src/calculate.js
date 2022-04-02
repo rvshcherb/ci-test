@@ -9,5 +9,3 @@ function calculateTotal(purchases) {
 module.exports = {
   calculateTotal,
 };
-
-console.log(test.each([[1, 2], [3, 4]]));
